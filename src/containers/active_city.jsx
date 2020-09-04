@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { connect } from 'react-redux';
 
 class ActiveCity extends Component {
   render() {
@@ -12,4 +13,8 @@ class ActiveCity extends Component {
   };
 }
 
-export default ActiveCity;
+function mapStateToProps(state){
+  return { city: state.activeCity };
+}
+
+export default connect(mapStateToProps)(ActiveCity);

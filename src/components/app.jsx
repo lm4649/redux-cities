@@ -5,7 +5,7 @@ const App = () => {
   return (
     <div className="app">
       <CityList />
-      <ActiveCity city={ { name: 'Paris', address: '16 Villa Gaudelet, 75011 Paris', slug: 'paris' } } />
+      <ActiveCity />
     </div>
   );
 };
