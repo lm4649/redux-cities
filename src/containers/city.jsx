@@ -9,7 +9,7 @@ class City extends Component {
   }
 
   render() {
-    return <div className="city" onClick={this.handleClick} >{this.props.city.name}</div>;
+    return <div className="city" onClick={this.handleClick}>{this.props.city.name}</div>;
   }
 }
 

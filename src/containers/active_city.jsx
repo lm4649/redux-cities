@@ -9,11 +9,11 @@ class ActiveCity extends Component {
         <p>{this.props.city.address}</p>
         <img src={`https://kitt.lewagon.com/placeholder/cities/${this.props.city.slug}`} alt="" />
       </div>
-      )
-  };
+    );
+  }
 }
 
-function mapStateToProps(state){
+function mapStateToProps(state) {
   return { city: state.activeCity };
 }
 

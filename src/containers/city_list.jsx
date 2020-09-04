@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import City from './city';
-import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
+import { bindActionCreators } from 'redux';
+import City from './city';
 import { setCities } from '../actions';
 
 class CityList extends Component {
